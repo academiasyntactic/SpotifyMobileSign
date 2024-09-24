@@ -1,0 +1,91 @@
+img {
+    width: 100%;
+  }
+  
+  .abuelo {
+    background-color: #1C1B1B;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    height: 100vh;
+  }
+  
+  .textoV {
+    color: #38B432;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Satoshi', sans-serif;
+  
+  }
+  
+  .fila1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20%;
+  }
+  
+  .logo {
+    width: 35%;
+  }
+  
+  .simbolo {
+    background-color: hsl(0, 1%, 22%);
+    padding: 15px 20px;
+    border-radius: 200px;
+  }
+  
+  .textInital {
+    text-align: initial;
+  }
+  
+  .boton {
+    background-color: #42C83C;
+    padding: 20px 0;
+    border-radius: 50px;
+    font-weight: bolder;
+  }
+  
+  .linea {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(95deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 0) 99%);
+    height: 2px;
+    width: 100px;
+  }
+  
+  .fila2 {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  .linea2 {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(262deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 0) 99%);
+    height: 2px;
+    width: 100px;
+  }
+  
+  .armaSecreta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  form {
+    gap: 20px;
+  }
+  
+  .email,
+  .password {
+    width: 85%;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    padding: 15px 20px;
+    border-radius: 10px;
+  }
